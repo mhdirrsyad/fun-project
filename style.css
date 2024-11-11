@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f4ec;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.4rem;
+  padding: 2rem;
+}
+
+.question {
+  font-size: 2.4rem;
+  width: 100%;
+  color: #ef5a6f;
+}
+
+.gif {
+  width: 20rem;
+  height: 20rem;
+  background-image: url(https://media.tenor.com/uSUkySupnnUAAAAi/tkthao219-bubududu.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttons-container {
+  width: 100%;
+}
+
+.buttons-container button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.8rem 4rem;
+  border: 2px solid #4e3636;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.l-button {
+  background-color: #ef5a6f;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.r-button {
+  position: absolute;
+  background-color: #fff;
+  color: #4e3636;
+}
